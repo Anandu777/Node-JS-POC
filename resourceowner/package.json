@@ -1,0 +1,27 @@
+{
+   "name": "resourseowner",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "dev": "env-cmd -f ./config/dev.env nodemon ./index.js",
+      "test": "env-cmd -f ./config/test.env jest --watchAll --runInBand"
+   },
+   "jest": {
+      "testEnvironment": "node"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "express": "^4.17.1",
+      "express-validator": "^6.6.1",
+      "mongoose": "^5.10.7"
+   },
+   "devDependencies": {
+      "env-cmd": "^10.1.0",
+      "jest": "^26.4.2",
+      "nodemon": "^2.0.4",
+      "supertest": "^5.0.0"
+   }
+}

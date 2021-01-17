@@ -19,6 +19,10 @@ password: 123456
 
 Import the postman collections to try out the API calls.
 
+```
+https://github.com/Anandu777/Node-JS-POC/blob/master/authorization%20server.postman_collection.json
+```
+
 # Test the application
 
 ## Steps
@@ -49,6 +53,10 @@ password: 123456
 ```
 
 Import the postman collections to try out the API calls.
+
+```
+https://github.com/Anandu777/Node-JS-POC/blob/master/resouce%20owner.postman_collection.json
+```
 
 # Test the application
 
